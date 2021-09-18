@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#49FFFFFF"
+    tools:context=".QuestsActivity">
+
+    <Button
+        android:id="@+id/exitButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="150dp"
+        android:background="@drawable/round_button"
+        android:text="Powrót"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/quest1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="228dp"
+        android:background="@drawable/round_view"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="TextView"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/quest2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/round_view"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="TextView"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/quest1" />
+
+    <TextView
+        android:id="@+id/quest3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/round_view"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="TextView"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/quest2" />
+
+    <Button
+        android:id="@+id/runningButton1"
+        android:layout_width="30dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:background="@drawable/round_view"
+        android:text="►"
+        app:layout_constraintBaseline_toBaselineOf="@+id/quest1"
+        app:layout_constraintStart_toEndOf="@+id/quest1" />
+
+    <Button
+        android:id="@+id/runningButton3"
+        android:layout_width="30dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:background="@drawable/round_view"
+        android:text="►"
+        app:layout_constraintBaseline_toBaselineOf="@+id/quest3"
+        app:layout_constraintStart_toEndOf="@+id/quest3" />
+
+    <Button
+        android:id="@+id/runningButton2"
+        android:layout_width="30dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:background="@drawable/round_view"
+        android:text="►"
+        app:layout_constraintBaseline_toBaselineOf="@+id/quest2"
+        app:layout_constraintStart_toEndOf="@+id/quest2" />
+
+    <TextView
+        android:id="@+id/streakText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Dni z rzędu"
+        android:textColor="#706B6B"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/headerText" />
+
+    <TextView
+        android:id="@+id/headerText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="32dp"
+        android:text="Zadania"
+        android:textColor="#000000"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/image_day_1"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        app:layout_constraintEnd_toStartOf="@+id/image_day_2"
+        app:layout_constraintTop_toBottomOf="@+id/streakText"
+        app:srcCompat="@drawable/day_1_locked" />
+
+    <ImageView
+        android:id="@+id/image_day_2"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        app:layout_constraintEnd_toStartOf="@+id/image_day_3"
+        app:layout_constraintTop_toBottomOf="@+id/streakText"
+        app:srcCompat="@drawable/day_2_locked" />
+
+    <ImageView
+        android:id="@+id/image_day_4"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toEndOf="@+id/image_day_3"
+        app:layout_constraintTop_toBottomOf="@+id/streakText"
+        app:srcCompat="@drawable/day_4_locked" />
+
+    <ImageView
+        android:id="@+id/image_day_5"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toEndOf="@+id/image_day_4"
+        app:layout_constraintTop_toBottomOf="@+id/streakText"
+        app:srcCompat="@drawable/day_5_locked" />
+
+    <ImageView
+        android:id="@+id/image_day_3"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/streakText"
+        app:srcCompat="@drawable/day_3_locked" />
+
+    <View
+        android:id="@+id/bottom_view"
+        android:layout_width="412dp"
+        android:layout_height="185dp"
+        android:background="#0099ff"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <View
+        android:id="@+id/wave_view"
+        android:layout_width="0dp"
+        android:layout_height="88dp"
+        android:background="@drawable/wave"
+        app:layout_constraintBottom_toTopOf="@+id/bottom_view"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/levelUpView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/level_up_notification"
+        android:paddingLeft="8dp"
+        android:paddingTop="8dp"
+        android:paddingRight="8dp"
+        android:paddingBottom="8dp"
+        android:text="Gratulacje! Zdobyłeś kolejny poziom!"
+        android:textColor="#FF0073FF"
+        android:textSize="24sp"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/quest3" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

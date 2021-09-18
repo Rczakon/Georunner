@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "299576191219",
+    "firebase_url": "https://georunner-e9ef7.firebaseio.com",
+    "project_id": "georunner-e9ef7",
+    "storage_bucket": "georunner-e9ef7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:299576191219:android:b1206b6b31b5cecc816f86",
+        "android_client_info": {
+          "package_name": "com.example.alphageorunner"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "299576191219-ibq0gbo5kqa5jvd5m6g28srh4ubi0jmr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC6_z4VtQJFYy7gTd9BjrsACrhAdrYlzhg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "299576191219-ibq0gbo5kqa5jvd5m6g28srh4ubi0jmr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

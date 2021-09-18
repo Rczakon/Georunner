@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HelpActivity">
+
+    <TextView
+        android:id="@+id/headerText10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:text='Odznaki podzielone są na 4 kategorie: osiągnięcia ogólne(takie jak całkowity, przebyty dystans) oraz po 1 kategorii dla każdego rodzaju zadań. Po zdobyciu odznaki, użytkownik może uzyskać informacje na jej temat po jej wybraniu w sekcji "Statystyki".'
+        android:textColor="#000000"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/headerText5" />
+
+    <TextView
+        android:id="@+id/headerText9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:text='Wykonanie każdego zadania nagradza użytkownika określoną liczbą punktów doświadczenia. W celu zdobycia następnego poziomu konieczne jest uzbieranie określonej liczby punktów doświadczenia. Wymagane punkty można zobaczyć w dziale "Statystyki".'
+        android:textColor="#000000"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/headerText4" />
+
+    <View
+        android:id="@+id/wave_view"
+        android:layout_width="0dp"
+        android:layout_height="88dp"
+        android:background="@drawable/wave"
+        app:layout_constraintBottom_toTopOf="@+id/bottom_view"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <View
+        android:id="@+id/bottom_view"
+        android:layout_width="412dp"
+        android:layout_height="50dp"
+        android:background="#0099ff"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/exitButton"
+        android:layout_width="88dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/round_button"
+        android:text="Powrót"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/headerText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="32dp"
+        android:text="Pomoc"
+        android:textColor="#000000"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/headerText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="16dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:text="Czym jest GeoRunner?"
+        android:textColor="#000000"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/headerText" />
+
+    <TextView
+        android:id="@+id/headerText7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:text="Aplikacja GeoRunner ma na celu zmotywowanie użytkowników do zwiększenia aktywoności fizycznej w postaci spacerów/biegania. W tym celu zlecane są zadania związane z przemieszczaniem się, za których wykonywanie użytkownik jest nagradzany."
+        android:textColor="#000000"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/headerText2" />
+
+    <TextView
+        android:id="@+id/headerText8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:text="W aplikacji dostępne są trzy rodzaje zadań: dystansowe, biegowe oraz zwiedzania. Polegają one odpowiednio na pokonaniu określonego dystansu, przebiegnięcia danej odległości oraz odwiedzeniu wskazanego miejsca."
+        android:textColor="#000000"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/headerText3" />
+
+    <TextView
+        android:id="@+id/headerText3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="16dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:text="Jakie zadania występują w aplikacji?"
+        android:textColor="#000000"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/headerText7" />
+
+    <TextView
+        android:id="@+id/headerText5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="16dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:text="Jak zdobywać odznaki?"
+        android:textColor="#000000"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/headerText9" />
+
+    <TextView
+        android:id="@+id/headerText4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="16dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:text="Jak zdobywać poziomy?"
+        android:textColor="#000000"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/headerText8" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

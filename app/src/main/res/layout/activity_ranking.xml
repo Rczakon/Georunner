@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RankingActivity">
+
+    <TextView
+        android:id="@+id/player"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="90dp"
+        android:layout_marginLeft="90dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/ranking_view"
+        android:paddingLeft="3dp"
+        android:paddingRight="3dp"
+        android:text="Gracz"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/headerText"
+        app:layout_constraintTop_toBottomOf="@+id/headerText" />
+
+    <TextView
+        android:id="@+id/distance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="46dp"
+        android:layout_marginLeft="46dp"
+        android:background="@drawable/ranking_view"
+        android:paddingLeft="3dp"
+        android:paddingRight="3dp"
+        android:text="Dystans"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBaseline_toBaselineOf="@+id/player"
+        app:layout_constraintStart_toEndOf="@+id/player" />
+
+    <TextView
+        android:id="@+id/player1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="90dp"
+        android:layout_marginLeft="90dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/ranking_view"
+        android:paddingLeft="3dp"
+        android:paddingRight="3dp"
+        android:text="TextView"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/headerText"
+        app:layout_constraintTop_toBottomOf="@+id/player" />
+
+    <TextView
+        android:id="@+id/player5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="90dp"
+        android:layout_marginLeft="90dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/ranking_view"
+        android:paddingLeft="3dp"
+        android:paddingRight="3dp"
+        android:text="TextView"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/headerText"
+        app:layout_constraintTop_toBottomOf="@+id/player4" />
+
+    <TextView
+        android:id="@+id/distance1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/ranking_view"
+        android:paddingLeft="3dp"
+        android:paddingRight="3dp"
+        android:text="TextView"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/distance"
+        app:layout_constraintTop_toBottomOf="@+id/distance" />
+
+    <TextView
+        android:id="@+id/distance2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/ranking_view"
+        android:paddingLeft="3dp"
+        android:paddingRight="3dp"
+        android:text="TextView"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/distance"
+        app:layout_constraintTop_toBottomOf="@+id/distance1" />
+
+    <TextView
+        android:id="@+id/distance3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/ranking_view"
+        android:paddingLeft="3dp"
+        android:paddingRight="3dp"
+        android:text="TextView"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/distance"
+        app:layout_constraintTop_toBottomOf="@+id/distance2" />
+
+    <TextView
+        android:id="@+id/distance5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/ranking_view"
+        android:paddingLeft="3dp"
+        android:paddingRight="3dp"
+        android:text="TextView"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/distance"
+        app:layout_constraintTop_toBottomOf="@+id/distance4" />
+
+    <TextView
+        android:id="@+id/distance4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/ranking_view"
+        android:paddingLeft="3dp"
+        android:paddingRight="3dp"
+        android:text="TextView"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/distance"
+        app:layout_constraintTop_toBottomOf="@+id/distance3" />
+
+    <TextView
+        android:id="@+id/player4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="90dp"
+        android:layout_marginLeft="90dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/ranking_view"
+        android:paddingLeft="3dp"
+        android:paddingRight="3dp"
+        android:text="TextView"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/headerText"
+        app:layout_constraintTop_toBottomOf="@+id/player3" />
+
+    <TextView
+        android:id="@+id/player2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="90dp"
+        android:layout_marginLeft="90dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/ranking_view"
+        android:paddingLeft="3dp"
+        android:paddingRight="3dp"
+        android:text="TextView"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/headerText"
+        app:layout_constraintTop_toBottomOf="@+id/player1" />
+
+    <TextView
+        android:id="@+id/player3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="90dp"
+        android:layout_marginLeft="90dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/ranking_view"
+        android:paddingLeft="3dp"
+        android:paddingRight="3dp"
+        android:text="TextView"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/headerText"
+        app:layout_constraintTop_toBottomOf="@+id/player2" />
+
+    <TextView
+        android:id="@+id/position5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="4dp"
+        android:layout_marginRight="4dp"
+        android:background="@drawable/ranking_view"
+        android:paddingLeft="3dp"
+        android:paddingRight="3dp"
+        android:text="5"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBaseline_toBaselineOf="@+id/player5"
+        app:layout_constraintEnd_toStartOf="@+id/player5" />
+
+    <TextView
+        android:id="@+id/position4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="4dp"
+        android:layout_marginRight="4dp"
+        android:background="@drawable/ranking_view"
+        android:paddingLeft="3dp"
+        android:paddingRight="3dp"
+        android:text="4"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBaseline_toBaselineOf="@+id/player4"
+        app:layout_constraintEnd_toStartOf="@+id/player4" />
+
+    <TextView
+        android:id="@+id/position2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="4dp"
+        android:layout_marginRight="4dp"
+        android:background="@drawable/ranking_view"
+        android:paddingLeft="3dp"
+        android:paddingRight="3dp"
+        android:text="2"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBaseline_toBaselineOf="@+id/player2"
+        app:layout_constraintEnd_toStartOf="@+id/player2" />
+
+    <TextView
+        android:id="@+id/position1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="4dp"
+        android:layout_marginRight="4dp"
+        android:background="@drawable/ranking_view"
+        android:paddingLeft="3dp"
+        android:paddingRight="3dp"
+        android:text="1"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBaseline_toBaselineOf="@+id/player1"
+        app:layout_constraintEnd_toStartOf="@+id/player1" />
+
+    <TextView
+        android:id="@+id/position3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="4dp"
+        android:layout_marginRight="4dp"
+        android:background="@drawable/ranking_view"
+        android:paddingLeft="3dp"
+        android:paddingRight="3dp"
+        android:text="3"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBaseline_toBaselineOf="@+id/player3"
+        app:layout_constraintEnd_toStartOf="@+id/player3" />
+
+    <View
+        android:id="@+id/wave_view"
+        android:layout_width="0dp"
+        android:layout_height="88dp"
+        android:background="@drawable/wave"
+        app:layout_constraintBottom_toTopOf="@+id/bottom_view"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <View
+        android:id="@+id/bottom_view"
+        android:layout_width="412dp"
+        android:layout_height="185dp"
+        android:background="#0099ff"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/exitButton"
+        android:layout_width="88dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="150dp"
+        android:background="@drawable/round_button"
+        android:text="Powrót"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/headerText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="32dp"
+        android:text="Ranking"
+        android:textColor="#000000"
+        android:textSize="36sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

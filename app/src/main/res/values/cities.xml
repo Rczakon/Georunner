@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="cities_array">
+        <item>Katowice</item>
+        <item>Chorzów</item>
+        <item>Pawłowice</item>
+        <item>Wrocław</item>
+    </string-array>
+</resources>

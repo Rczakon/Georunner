@@ -1,0 +1,9 @@
+ {
+    "id": "453532d",
+    "userName": "Rafael",
+    "level": 1,
+    "totalDistance": 0.0,
+    "currentQuests": ["001", "003", "102"],
+    "completedQuests": [false, false, false]
+
+  }

@@ -1,0 +1,169 @@
+[
+  {
+    "id": "001",
+    "completed": false,
+    "type": "walking",
+    "description": "Przejdź 100m",
+    "distanceRequired": 100,
+    "latRequired": "0",
+    "lonRequired": "0",
+    "experience": 20,
+    "distanceAtStart": -1.0
+  },
+  {
+    "id": "003",
+    "completed": false,
+    "type": "walking",
+    "description": "Przejdź 1km",
+    "distanceRequired": 1000,
+    "latRequired": "0",
+    "lonRequired": "0",
+    "experience": 230,
+    "distanceAtStart": -1.0
+  },
+  {
+    "id": "004",
+    "completed": false,
+    "type": "walking",
+    "description": "Przejdź 10km",
+    "distanceRequired": 10000,
+    "latRequired": "0",
+    "lonRequired": "0",
+    "experience": 230,
+    "distanceAtStart": -1.0
+  },
+  {
+    "id": "102",
+    "completed": false,
+    "type": "visiting",
+    "description": "Odwiedź Plac Andrzeja",
+    "distanceRequired": 0,
+    "latRequired": "50.255763",
+    "lonRequired": "19.014765",
+    "experience": 300,
+    "distanceAtStart": -1.0
+  },
+,  {
+  "id": "103",
+  "completed": false,
+  "type": "visiting",
+  "description": "Odwiedź Spodek",
+  "distanceRequired": 0,
+  "latRequired": "50.265487",
+  "lonRequired": "19.024919",
+  "experience": 300,
+  "distanceAtStart": -1.0
+},
+  {
+    "id": "104",
+    "completed": false,
+    "type": "visiting",
+    "description": "Odwiedź Archikatedrę",
+    "distanceRequired": 0,
+    "latRequired": "50.252018",
+    "lonRequired": "19.019162",
+    "experience": 300,
+    "distanceAtStart": -1.0
+  },
+  {
+    "id": "105",
+    "completed": false,
+    "type": "visiting",
+    "description": "Odwiedź Bibliotekę Śląską",
+    "distanceRequired": 0,
+    "latRequired": "50.252190",
+    "lonRequired": "19.032174",
+    "experience": 300,
+    "distanceAtStart": -1.0
+  },
+  {
+    "id": "106",
+    "completed": false,
+    "type": "visiting",
+    "description": "Odwiedź Pomnik Powstanców Śląskich",
+    "distanceRequired": 0,
+    "latRequired": "50.263604",
+    "lonRequired": "19.023986",
+    "experience": 300,
+    "distanceAtStart": -1.0
+  },
+  {
+    "id": "125",
+    "completed": false,
+    "type": "visiting",
+    "description": "Odwiedź Kościół św. Barbary",
+    "distanceRequired": 0,
+    "latRequired": "50.303482",
+    "lonRequired": "18.946151",
+    "experience": 300,
+    "distanceAtStart": -1.0
+  },
+  {
+    "id": "126",
+    "completed": false,
+    "type": "visiting",
+    "description": "Odwiedź Kościół św. Józefa",
+    "distanceRequired": 0,
+    "latRequired": "50.309455",
+    "lonRequired": "18.941381",
+    "experience": 300,
+    "distanceAtStart": -1.0
+  },
+  {
+    "id": "127",
+    "completed": false,
+    "type": "visiting",
+    "description": "Odwiedź Dom Teodora Kalidego",
+    "distanceRequired": 0,
+    "latRequired": "50.303912",
+    "lonRequired": "18.950723",
+    "experience": 300,
+    "distanceAtStart": -1.0
+  },
+  {
+    "id": "128",
+    "completed": false,
+    "type": "visiting",
+    "description": "Odwiedź Żyrafę w Parku Śląskim",
+    "distanceRequired": 0,
+    "latRequired": "50.277057",
+    "lonRequired": "18.985361",
+    "experience": 300,
+    "distanceAtStart": -1.0
+  },
+  {
+    "id": "175",
+    "completed": false,
+    "type": "visiting",
+    "description": "Odwiedź Urząd Gminy Pawłowice",
+    "distanceRequired": 0,
+    "latRequired": "49.962192",
+    "lonRequired": "18.718733",
+    "experience": 300,
+    "distanceAtStart": -1.0
+  },
+  {
+    "id": "201",
+    "completed": false,
+    "type": "running",
+    "description": "Przebiegnij 200m",
+    "distanceRequired": 200,
+    "latRequired": "0",
+    "lonRequired": "0",
+    "experience": 500,
+    "started": false,
+    "distanceAtStart": -1.0
+  },
+  {
+    "id": "202",
+    "completed": false,
+    "type": "running",
+    "description": "Przebiegnij 500m",
+    "distanceRequired": 500,
+    "latRequired": "0",
+    "lonRequired": "0",
+    "experience": 1000,
+    "started": false,
+    "distanceAtStart": -1.0
+  }
+]
